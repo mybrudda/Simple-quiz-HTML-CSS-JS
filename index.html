@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <label for="topic">Selected:</label>
+
+        <select id="topic">
+            <option value="" disabled selected>Topic</option>
+            <option value="general">General Knowledge</option>
+            <option value="movies">Movies</option>
+            <option value="music">Music</option>
+        </select>
+
+        <button id="start-button">Start</button>
+
+    </header>
+
+    <section class="main">
+
+        <div class="container">
+
+            <h3 id="questionBox">Select a topic to start Playing !</h3>
+
+            <div class="colbox">
+                <input name="option" type="radio" id="first" value="a">
+                <label for="first"></label>
+            </div>
+
+            <div class="colbox">
+                <input name="option" type="radio" id="second" value="b">
+                <label for="second"></label>
+            </div>
+
+            <div class="colbox">
+                <input name="option" type="radio" id="third" value="c">
+                <label for="third"></label>
+            </div>
+
+            <div class="colbox">
+                <input name="option" type="radio" id="fourth" value="d">
+                <label for="fourth"></label>
+            </div>
+
+            <button id="submit">Submit</button>
+
+            
+
+        </div>
+
+    </section>
+
+    <script src="javascript.js"></script>
+
+</body>
+
+</html>
